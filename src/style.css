@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap');
+
+*,
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+body {
+  text-align: center !important;
+  background-color: #18202f;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+input,
+button {
+  width: 35%;
+  padding: 10px;
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+}
+
+button,
+video {
+  margin-right: 10px;
+}
+
+img {
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+ol {
+  text-align: left;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 0%;
+  background-color: #9034aa;
+}
+
+.loading {
+  position: fixed;
+  top: 80px;
+  left: 0px;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+  animation-duration: 0.75s;
+  animation-name: fadeIn;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.3;
+  }
+  25% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.3;
+  }
+  25% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
