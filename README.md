@@ -1,4 +1,4 @@
-# Proyecto inicial - Curso de RXJS
+# Practicando RxJS con el curso de Fernando Herrera - https://cursos.devtalles.com/courses/reactivex-rxjs
 
 1. Lo primero que debemos de hacer después de descargar el proyecto, abrimos una terminal y nos ubicamos en el proyecto descargado.
 2. Ejecutar el comando para instalar las dependencias del proyecto (Asegurarse que se encuentren en la ruta donde se encuentra el ```package.json```)
